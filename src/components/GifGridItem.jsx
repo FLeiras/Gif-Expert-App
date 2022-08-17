@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+/* import PropTypes from "prop-types"; */
 
 function GifGridItem({ title, url }) {
   return (
@@ -9,9 +9,9 @@ function GifGridItem({ title, url }) {
   );
 }
 
-GifGridItem.PropTypes = {
+/* GifGridItem.PropTypes = {
   title: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
-};
+}; */
 
 export default GifGridItem;
